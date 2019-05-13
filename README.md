@@ -1,16 +1,26 @@
 # plupload
 
-## Project setup
+## 简单说明
+    这个demo是根据阿里云文件(图片，视频)上传到oss改为vue引用
+
+## 注意修改的地方
+    src/components/Plupload.vue中 
+    accessid 
+    accesskey
+    host 
+    换成自己阿里云对应的值
+
+## 初始化
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 开发环境运行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 生产环境运行
 ```
 npm run build
 ```
@@ -24,6 +34,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
